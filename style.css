@@ -1,0 +1,269 @@
+@import url('https://fonts.cdnfonts.com/css/the-queen');
+@import url('https://fonts.cdnfonts.com/css/jomolhari-3');
+@import url('https://fonts.cdnfonts.com/css/diphylleia');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.content img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.content h1{
+    font-family: 'Diphylleia', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+    font-weight: 100;
+    position: relative;
+    bottom: 600px;
+    margin-left: 100px;
+
+
+}
+
+.content p{
+    color: rgb(253, 231, 34);
+    position: relative;
+    font-size: 20px;
+    bottom: 600px;
+    margin-left: 100px;
+    font-family: 'The Queen', sans-serif;
+}
+
+/*navegação*/
+
+.nav_menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}
+
+.nav_menu .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 400px;
+}
+
+.nav li a {
+    padding: 5rem 2rem 2rem 1rem ;
+    text-decoration: none;
+    color: rgb(251, 255, 18);
+    font-size: 25px;
+    font-family: 'Jomolhari', sans-serif;
+    transition: text-decoration 0.3s ease;
+}
+
+.nav li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.logo img {
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   width: 120px;
+   height: auto;
+   padding-left: 20px;
+   padding-top: 10px;
+}
+
+/*imagens principais*/
+
+.images {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1px;
+    bottom: 1000px;
+    left: 200px;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.images .center img {
+    object-fit: cover;
+    height: 550px;
+    width: 300px;
+}
+
+.images .left img {
+    width: auto;
+    height: 450px;
+    overflow: hidden;
+    top: 50px;
+    position: relative;
+}
+
+.images .right img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    top: 50px;
+    position: relative;
+}
+
+/*bibliografia*/
+
+.bibliografia {
+    align-items: center;
+    padding-left: 30px;
+    height: auto;
+    position: relative;
+    bottom: 800px;
+}
+
+.bibliografia .photo {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    bottom: 250px;
+
+}
+.photo img {
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.info h1 {
+    font-size: 60px;
+    font-family: 'The Queen', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.info p {
+    font-size: 20px;
+    font-family: 'jomolhari', sans-serif;
+    color: white;
+    position: relative;
+    top: 300px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+/*albuns*/
+
+.albuns h1 {
+    font-size: 80px;
+    font-family: 'The Queen', sans-serif;
+    color: white;
+    text-align: end;
+    position: relative;
+    bottom: 990px;
+    right: 300px;
+    z-index: 0;
+
+}
+
+.disco img {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    bottom: 600px;
+    padding-left: 30px;
+    z-index: 1;
+    object-fit: cover;  
+}
+
+.albuns .imagem {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    bottom: 700px;
+    position: relative;
+    padding-left: 100px;
+}
+
+.albuns .imagem img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 200px;
+    transition: transform 0.3s ease-in-out; /* Transição suave para a transformação */
+}
+
+.albuns .imagem img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+/*video*/
+
+.video img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 600px;
+    z-index: 0;
+}
+
+.video h1 {
+    font-size: 100px;
+    font-family: 'The Queen',sans-serif;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 960px;
+    z-index: 1;
+    background-color: transparent;
+    text-align: center;
+}
+
+.video iframe {
+    position: relative;
+    bottom: 1000px;
+    left: 300px;
+    z-index: 1;
+}
+
+.video .secondimg img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 1100px;
+    z-index: 0;
+}
+
+/*turne*/
+
+.turne h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'The Queen', sans-serif;
+    padding-left: 200px;
+    position: relative;
+    bottom: 1100px;
+}
+
+.turne img {
+    left: 900px;
+    position: relative;
+    bottom: 1400px;
+}
+
+.turne a {
+    position: relative;
+    bottom: 1500px;
+    right: 250px;
+    color: yellow;
+}
